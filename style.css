@@ -11,9 +11,7 @@
 	position: absolute;
 	top: 0;
 	width: 100%;
-}
 
-.landscape-layer {
 	/*parallax*/
 	transform: translateY(calc(var(--scrollPos, 0) * var(--offset, 0)));
 
@@ -41,6 +39,11 @@
 	flex-direction: column;
 }
 
+.landscape-image img {
+	display: block;
+	height: auto;
+	max-width: 100vw;
+  }
 
 
 #layer1 {
